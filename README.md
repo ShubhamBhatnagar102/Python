@@ -1,4 +1,5 @@
 # Python
+Please your own Api key before running 
 ->run these commands before running code to install these dependencies
     pip install streamlit genai
     pip install -U google-genai
