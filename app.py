@@ -5,7 +5,7 @@ if "chats" not in st.session_state:
     st.session_state.chats=[]
 #creating a api function
 def send_prompt(query,file_uploaded=None):
-    client = genai.Client(api_key="AQ.Ab8RN6JGHf1eTadE7Qq_AMnEdweHC9Y70YO1c4W_tHFOFbZxug")
+    client = genai.Client(api_key="")
     query=f'''please reply according to query and from file's context(csv_file),if present.
                     {query}
                     file={file_uploaded}
